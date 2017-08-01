@@ -1,0 +1,34 @@
+<!DOC Type HTML>
+
+<html>
+
+<head><title>Forms</title></head>
+
+<body style="font-family:Calibri;">
+
+<form>
+
+Full Name: <input type="text" name="name" required> <br />
+<br />
+Email: <input type="email" name="email" required><br />
+<br />
+PIN: <input type="password" name="pin" required><br />
+<br />
+<input type="checkbox" name="rem" value="remember" checked> Remember Login?<br />
+<br />
+Clear history after log-off? <input type="radio" name="clear" value="yes" checked>Yes
+<input type="radio" name="clear" value="no">No <br />
+<br />
+Estimated time: 
+<select name="time">
+	<option value="30min" checked>30 Minutes</option>
+	<option value="1hr">1 Hour</option>
+	<option value="2hr">2 Hours</option>
+	<option value="3hr">3 Hours</option>
+</select><br />
+<br />
+Upload Thumb Image: <input type="file" name="fileupload" accept="image/png" required />
+
+<br />
+<br />
+<input type="submit">

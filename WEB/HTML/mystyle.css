@@ -1,0 +1,115 @@
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none
+    }
+    
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none
+    }
+    
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline
+    }
+    
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline
+    }
+	
+	h3 {
+		font-family: Ubuntu;
+	}
+	
+	pre {
+		color: black;
+		background-color: blue;
+		text-decoration: bold;
+		font-family: Lucida Console;
+	}
+	
+	p.test {
+		color: blue;
+		background-color: transparent;
+		text-decoration: italic;
+		font-family: Calibri;
+		text-align: justify;
+	}
+	
+	/*
+	body {
+		background-image: url(bg.jpg); /* used to set images as background
+		background-repeat:repeat-y; /* used to set repeatiition
+}
+	*/
+	.MyGradientClass
+	{
+		background: #6190E8; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #6190E8 , #A7BFE8); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #6190E8 , #A7BFE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+	
+	ul.border {
+		border-top-style: dotted;
+		border-top-color: red;
+		border-top-width: 4px;
+		
+		border-left-style: dashed;
+		border-left-color: blue;
+		border-left-width: 7px;
+		
+		border-right-style: groove;
+		border-right-color: green;
+		border-right-width: 5px;
+		
+		border-bottom-style: solid;
+		border-bottom-color: yellow;
+		border-bottom-width: 6px;
+	}
+	
+	div.main {
+		margin: 70px;
+		padding: 20px;
+		width: 200px;
+		height: 60px;
+		border: 5px;
+		border-style: solid;
+	}
+	
+	p.uppercase {
+		text-transform: uppercase; /*all CAPS*/
+		text-indent: 50px; /*spacing from the left side*/
+		letter-spacing: 10px;
+		line-height: 2px;
+	}
+	
+	
+	p.lowercase {
+		text-transform: lowercase; /*all lowercase*/
+		direction: rtl; /* Text starts from the right side of the page*/
+		word-spacing: 5px;
+		text-shadow: 4px 4px white;
+	}
+	
+	p.capitalize {
+		text-transform: capitalize; /*capitalise first letter of each word*/
+	}
+	
+	div.fixed {
+		position:fixed;
+		bottom: 0;
+		right: 0;
+		width: 300px;
+		height: 50px;
+	}
+	
+	div.abs {
+		position:absolute;
+		width: 300px;
+		height: 50px;
+	}

@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+
+<html>
+<link rel="stylesheet" type="text/css" href="mystyle.css"> <!--External CSS-->
+<head>
+    <title>Test Page</title>
+</head>
+
+<body class="MyGradientClass"> <!--Inline CSS-->
+
+    <nav>
+        <!--Unordered List-->
+        <ul>
+            <li><a href="http://www.google.com/">Google</a></li>
+            <li><a href="http://in.yahoo.com/">Yahoo India</a></li>
+
+        </ul>
+	<!--Ordered List-->
+        <ol>
+            <li><a href="http://www.google.com/>Google</a></li>
+            <li><a href="http://in.yahoo.com/">Yahoo India</a></li>
+        </ol>
+		
+	<dl><!--Descriptive List-->
+		<li><a href="http://www.google.com/">Google</a></li>
+			<dd>Google Home Page</dd>
+		<li><a href="http://www.yahoo.co.in/">Yahoo India</a></li>
+			<dd>Yahoo! India Home Page</dd>
+	</dl>
+
+    </nav>
+
+    This is a test web page for learning HTML5.
+
+    <h1>This is a 1st level heading.</h1>
+    <h2>This is a 2nd level heading.</h2>
+    <h3>This is a 3rd level heading.</h3>
+    <h4>This is a 4th level heading.</h4>
+    <h5>This is a 5th level heading.</h5>
+    <h6>This is a 6th level heading.</h6>
+    <p>This is an extremely long paragraph (assume that it is).</p>
+    <p> this is another paragraph</p>
+    <p>This <a href="https://www.facebook.com/">link</a> will lead you to Facebook. (apparently not)</p>
+    <h3> This is a basic image named Slow Internet</h3>
+    <img src="slow.jpg" alt="Slow_Internet" width="178">
+
+    <p title="Tooltip paragraph">This is a paragraph with tooltip.</p>
+
+    <h1>This is heading 1</h1>
+    <p>This is some text.</p>
+    <hr>
+    <h2>This is heading 2</h2>
+    <p>This is some other text.</p>
+    <hr>
+
+    <p>this line in source 
+	contains a lot of lines 
+	but the browser doesn't care</p>
+
+    <p>This is<br>one line<br>in source<br></p>
+
+    <pre>I used 'pre' in this paragraph.
+
+	It is exactly like this in the source</pre>
+
+    <h3 style="color:red;">This is a red heading</h3>
+    <h3 style="color:blue;">This is a blue heading</h3>
+
+    <h3 style="color:Green;font-family:Calibri;">This is a Green heading with Calibri font.</h3>
+
+    <h3 id="font" style="color:brown;font-family:Monotype Corsiva;font-size:200%;text-align:center">
+        This is a brown 3<sup>rd</sup> level heading with Monotype Corsiva Font, 200% size and center alignment
+    </h3>
+
+
+    <p style="font-family:Calibri">This is my 1<sup>st</sup> superscript and my first <sub>subscript</sub>
+    </p>
+
+
+    <p style="font-size:300%">This is <b>bold text</b>, <strong>important text</strong>, <i>italic</i>,<em>emphasized text</em>,<br>
+        <mark>marked text</mark>, <small>small text</small>, <del>deleted text</del>, <strike>Striked Text</strike>, <br>
+		<ins>inserted text</ins>,<u>Underlined text</u>
+    </p>
+    <hr>
+
+    <q>This is a quotation. Quotations are used to indicate that<br>whatever you are writing is said by someone else,<br>
+	or some other website</q>
+    <hr>
+
+    <code>This line will be displayed as code</code>
+
+    <p> This line has a comment between <b>this</b> word
+        <!--This is a comment in HTML. Useful for leaving hints when writing a web page-->and <strong>this</strong> word.</p>
+    <hr>
+
+    <p>This <a href="test_redirect.html">link</a> will lead you to a test redirection page.</p>
+
+    <p>This <a href="test_redirect.html" target="_blank">link</a> will lead you to a test redirection page in new tab.</p>
+
+    <p>This <a href="test_redirect.html" target="_self">link</a> will lead you to a test redirection page in this tab.</p>
+
+    <p>This <a href="test_redirect.txt" target="_parent">link</a> will lead you to a test redirection document in a parent frame.</p>
+    <!--for documents, going full tab in Firefox-->
+
+    <p>This <a href="test_redirect.txt" target="_top">link</a> will lead you to a test redirection document in full body window.</p>
+    <!--for documents-->
+
+    <p>The image below will redirect you to the test page</p>
+    <a href="test_redirect.html">
+
+        <img src="test_redirect.png" alt="Test Redirection" width="47" height="100">
+
+    </a>
+
+    <p>This <a href="#font">link </a>will take you up to the brown font.</p>
+
+    <img src="http://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+    <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;"> The image will float to the right of the text.</p>
+
+    <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;"> The image will float to the left of the text.</p>
+
+    <br>
+
+    <hr>
+
+    <br>
+
+    <!--Articles and sections-->
+
+    <article>
+        This is an article and these are used in web pages to separate articles from the rest of the web page source.
+    </article>
+
+    <br>
+    <br>
+
+    <hr>
+
+    <!--Audio tag, used for embedding audio files in a web page-->
+
+    <p>One form of showing audio.
+        <audio src="Rockabye.mp3" controls>
+            Your browser doesn't support audio
+        </audio>
+    </p>
+
+    <p>Another way of showing audio.
+
+        <audio controls>
+        <source src="Rockabye.mp3",type="audio/mpeg">
+        </audio>
+    </p>
+<hr>
+<!--Form-->
+<form>
+
+Full Name: <input type="text" name="name" required> <br />
+<br />
+Email: <input type="email" name="email" required><br />
+<br />
+PIN: <input type="password" name="pin" required><br />
+<br />
+<input type="checkbox" name="rem" value="remember" checked> Remember Login?<br />
+<br />
+Clear history after log-off? <input type="radio" name="clear" value="yes" checked>Yes
+<input type="radio" name="clear" value="no">No <br />
+<br />
+Estimated time: 
+<select name="time">
+	<option value="30min" checked>30 Minutes</option>
+	<option value="1hr">1 Hour</option>
+	<option value="2hr">2 Hours</option>
+	<option value="3hr">3 Hours</option>
+</select><br />
+<br />
+Upload Thumb Image: <input type="file" name="fileupload" accept="image/png" required />
+
+<br />
+<br />
+<input type="submit">
+
+<h1 style="color:rgb(0,70,225);text-align:center;">The CSS Tutorial</h1>
+<h3 align="center"> Check mystyle.css</h3>
+
+<p>The following values are allowed:
+<ul class="border">
+	<li><mark><u>dotted</u></mark> - Defines a dotted border</li>
+	<li><mark><u>dashed</u></mark> - Defines a dashed border</li>
+	<li><mark><u>solid</u></mark> - Defines a solid border</li>
+	<li><mark><u>double</u></mark> - Defines a double border</li>
+	<li><mark><u>groove</u></mark> - Defines a 3D grooved border. The effect depends on the border-color value</li>
+	<li><mark><u>ridge</u></mark> - Defines a 3D ridged border. The effect depends on the border-color value</li>
+	<li><mark><u>inset</u></mark> - Defines a 3D inset border. The effect depends on the border-color value</li>
+	<li><mark><u>outset</u></mark> - Defines a 3D outset border. The effect depends on the border-color value</li>
+	<li><mark><u>none</u></mark> - Defines no border</li>
+	<li><mark><u>hidden</u></mark> - Defines a hidden border.</li>
+</ul>
+</p>
+<div class="main">This is DIV tag. Used to control different sections of the webpage</div>
+
+<p class="uppercase">this text is in all lowercase in source</p>
+<br><p class="lowercase">THIS TEXT IS IN ALL CAPS IN SOURCE</p>
+<br><p class="capitalize">this text is also in all lowercase in the source</p>
+
+<div class="fixed">This will remain fixed.</div><br>
+<div class="abs"> This is Absolute position</div><br>
+
+<p>Mouse over the words to change the cursor.</p>
+<span style="cursor:auto">auto</span><br>
+<span style="cursor:crosshair">crosshair</span><br>
+<span style="cursor:default">default</span><br>
+<span style="cursor:e-resize">e-resize</span><br>
+<span style="cursor:help">help</span><br>
+<span style="cursor:move">move</span><br>
+<span style="cursor:n-resize">n-resize</span><br>
+<span style="cursor:ne-resize">ne-resize</span><br>
+<span style="cursor:nw-resize">nw-resize</span><br>
+<span style="cursor:pointer">pointer</span><br>
+<span style="cursor:progress">progress</span><br>
+<span style="cursor:s-resize">s-resize</span><br>
+<span style="cursor:se-resize">se-resize</span><br>
+<span style="cursor:sw-resize">sw-resize</span><br>
+<span style="cursor:text">text</span><br>
+<span style="cursor:w-resize">w-resize</span><br>
+<span style="cursor:wait">wait</span><br>
+
+
+</body>
+
+</html>

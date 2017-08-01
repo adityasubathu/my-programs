@@ -1,0 +1,2 @@
+; dlltool --base-file C:\Users\Gaurav\AppData\Local\Temp\cca05324.base --output-exp SimpleDll.exp --dllname SimpleDll.DLL --output-def C:\PROGRA~2\C-FREE~1\samples\SimpleDll.def --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\Gaurav\AppData\Local\Temp\cca05324.def
+EXPORTS
